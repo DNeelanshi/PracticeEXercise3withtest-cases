@@ -4,7 +4,7 @@ public class MainExceptions extends Exception {
 
 
     public MainExceptions(String msg){  //constructor
-        super(msg);
+        super(msg);  //using super to invoke Exception constructor
     }
 
     public static void main(String [] args){
