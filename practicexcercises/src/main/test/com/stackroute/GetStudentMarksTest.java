@@ -12,13 +12,13 @@ public class GetStudentMarksTest {
 
     @Before
     public void setup() throws Exception{
-        System.out.println("Before");
+
         obj = new GetStudentMarks();
     }
 
     @After
     public void teardown() throws Exception{
-        System.out.println("After");
+
         obj = null;
     }
 

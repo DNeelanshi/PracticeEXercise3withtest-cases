@@ -30,6 +30,14 @@ public class CheckCountryVowelConsonantTest {
         assertArrayEquals(expected,countryobj.removeVowels(input));
     }
 
+    @Test
+    public void givenInputConsonantCountriesShouldReturnStringsSame() {
+        String []input={"jkljkl",
+                "bdbdbdbd"};
+        String []expected={"jkljkl","bdbdbdbd"};
+        assertArrayEquals(expected,countryobj.removeVowels(input));
+    }
+
 }
 
 

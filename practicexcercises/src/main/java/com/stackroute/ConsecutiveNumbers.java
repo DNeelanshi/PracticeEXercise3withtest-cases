@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class ConsecutiveNumbers {
 
+    //Calculate consecutive numbers using loop
+
     public boolean checkConsecutive(String input){
         String array[] = input.split(",");
 

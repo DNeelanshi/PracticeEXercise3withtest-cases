@@ -17,6 +17,7 @@ public class Matrix {
 
     public int [][] addOfMatrices(){
 
+        //SAddition of matrix
         if(matrix1==null ||matrix2==null)
             return  null;
         int row=matrix1.length;

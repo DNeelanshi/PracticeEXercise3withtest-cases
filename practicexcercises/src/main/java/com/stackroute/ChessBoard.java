@@ -4,6 +4,7 @@ public class ChessBoard {
 
     public String generateBoard(){
 
+        //string buffer to store sresultant string pattern
         StringBuffer result = new StringBuffer("");
         for(int i=1;i<=8;i+=2){
             for(int j=1;j<=8;j++){
